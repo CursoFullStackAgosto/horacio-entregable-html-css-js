@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Jura:wght@300..700&display=swap');
+
+body{
+    background-color: rgba(100, 148, 237, 0.658);
+    
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin: 2%;
+}
+
+.container .inputAndButton{
+    display: flex;
+    gap: 10px;   
+}
+
+header .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:center;
+    font-family: "Cinzel", serif;
+    font-size: 5rem;
+}
+
+.container .input-task{
+    display:flex;
+    flex-direction: row;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 16px;
+}
+
+.container .send-button{
+    display:contents;
+    cursor: pointer;
+    color: green;
+}
+
+.list{
+    font-family: "Jura", sans-serif;
+    font-size: 2rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.list li .delete-button {
+    color: red;
+    cursor: pointer;
+
+}
